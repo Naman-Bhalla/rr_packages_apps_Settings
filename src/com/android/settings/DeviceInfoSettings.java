@@ -599,7 +599,7 @@ public class DeviceInfoSettings extends SettingsPreferenceFragment implements In
              */
             String firstLine = readLine(FILENAME_PROC_CPUINFO);
             if (firstLine != null) {
-                result = firstLine.split(":")[1].trim();
+                result = "AArch64 Processor rev 2 (aarch64)";
             }
         } catch (IOException e) {}
 
